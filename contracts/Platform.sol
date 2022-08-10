@@ -127,7 +127,7 @@ contract Platform {
     return postVotes[postId].total;
   }
 
-  function getAuthorReputation(address poster) public view returns (int256) {
+  function getPosterReputation(address poster) public view returns (int256) {
     return posterReputation[poster];
   }
 
